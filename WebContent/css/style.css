@@ -1,0 +1,99 @@
+body {
+	background: url("images/service.jpg") no-repeat fixed center center;
+	color: #000;
+}
+.c{
+	width: 900px;
+	margin: 0 auto;
+}
+.tab-section{
+	margin: 100px auto;
+	padding: 0 1em;
+	width: 100%;
+} 
+.tab-area{
+	position: relative;
+	width: 100%;
+	color: #000;
+	margin-bottom: 1em;
+}
+input {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+label {
+	background: cyan;
+	border: 1px solid #000;
+	display: block;
+	font-size: 30px;
+	transition:all .3s ease 0s;
+	line-height: 2;
+	position: relative;
+	padding: 0 0 0 1em;
+}
+label:hover {
+	background-color: #20405;
+	color: #fff;
+}
+.tab-content{
+	background: #fff;
+	transition: max-height .35s;
+	max-height: 0;
+	overflow: hidden;
+	padding: 0 10px;
+	border: 1px solid;_#8e9fbc;
+}
+
+input:checked ~ .tab-content{
+	min-height:10em
+}
+label:before,
+label:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;
+	background-color #fff:
+	transition: transform .25s ease-out; 
+}
+label:before {
+	top: 19px;
+	right:25px;
+	width:2px;
+	height: 20px;
+	background: #363636;
+}
+label:after {
+	top: 50%;
+	right:15px;
+	width:23px;
+	height: 2px;
+	margin-top: -2px;
+	background: #363636;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
